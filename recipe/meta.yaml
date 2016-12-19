@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "1.1.1" %}
-{% set sha256 = "ecc184b011adec545af659a9bf64382ef8f5dceb6b62c9b939dfb5d01b2ca0cb" %}
+{% set version = "1.1.3" %}
+{% set sha256 = "affa17c3ad61ca5c7890b0631c89f541389a93a65cf64f248b210e191b59942e" %}
 
 package:
   name: {{ name|lower }}
@@ -24,8 +24,8 @@ requirements:
     - python
     - numpy
     - scipy
-    - ndarray_listener
-    - brent_search
+    - ndarray-listener
+    - brent-search
 
 test:
   requires:
