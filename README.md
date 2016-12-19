@@ -1,7 +1,7 @@
 About optimix
 =============
 
-Home: https://github.com/Horta/optimix
+Home: https://github.com/glimix/optimix
 
 Package license: MIT
 

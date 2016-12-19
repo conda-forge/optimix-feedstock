@@ -36,13 +36,13 @@ test:
     - python -c "import optimix; optimix.test()"
 
 about:
-  home: https://github.com/Horta/optimix
+  home: https://github.com/glimix/optimix
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: 'Abstract function optimisation'
   doc_url: http://optimix.readthedocs.io/
-  dev_url: https://github.com/Horta/optimix
+  dev_url: https://github.com/glimix/optimix
 
 extra:
   recipe-maintainers:
