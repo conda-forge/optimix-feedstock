@@ -11,6 +11,18 @@ Summary: Abstract function optimisation
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/optimix-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/optimix-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/optimix-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/optimix-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/optimix-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/optimix-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/optimix/badges/version.svg)](https://anaconda.org/conda-forge/optimix)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/optimix/badges/downloads.svg)](https://anaconda.org/conda-forge/optimix)
+
 Installing optimix
 ==================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/optimix-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/optimix-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/optimix-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/optimix-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/optimix-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/optimix-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/optimix/badges/version.svg)](https://anaconda.org/conda-forge/optimix)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/optimix/badges/downloads.svg)](https://anaconda.org/conda-forge/optimix)
 
 
 Updating optimix-feedstock
