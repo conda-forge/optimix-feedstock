@@ -26,6 +26,7 @@ requirements:
     - scipy
     - ndarray-listener
     - brent-search
+    - tqdm
 
 test:
   requires:
