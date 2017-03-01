@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "1.1.5" %}
-{% set sha256 = "1fa0402db581a7c48da19e73604f6a0dab51e5fddb034fdf3b43d91609b020ca" %}
+{% set version = "1.1.7" %}
+{% set sha256 = "4925c6ed1a012a058b692670a640c4589bcb73b5c775c5a0a97755ef46342494" %}
 
 package:
   name: {{ name|lower }}
@@ -26,6 +26,7 @@ requirements:
     - scipy
     - ndarray-listener
     - brent-search
+    - tqdm
 
 test:
   requires:
