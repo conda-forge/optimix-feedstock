@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "1.2.5" %}
-{% set sha256 = "1d9ab13716b8d193d31f804d59fa26e2ebe47b13f37924eb4942deb8ad11e780" %}
+{% set version = "1.2.10" %}
+{% set sha256 = "d9b6e734e64ae4199ac461d1a09a60cef643252b40079773ce6e2b0471ed514c" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
@@ -37,13 +37,13 @@ test:
     - python -c "import sys; import optimix; sys.exit(optimix.test())"
 
 about:
-  home: https://github.com/glimix/optimix
+  home: https://github.com/limix/optimix
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: 'Abstract function optimisation'
-  doc_url: http://optimix.readthedocs.io/
-  dev_url: https://github.com/glimix/optimix
+  doc_url: https://optimix.readthedocs.io/
+  dev_url: https://github.com/limix/optimix
 
 extra:
   recipe-maintainers:
