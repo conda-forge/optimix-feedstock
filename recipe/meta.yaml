@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "1.2.13" %}
-{% set sha256 = "c1a5c9408222a90a614541e27afdaf9ff128f4aff6cc44b79c82f24e0d34f181" %}
+{% set version = "1.2.16" %}
+{% set sha256 = "ab25dfb221aaa57746b2d0806c98d454ef9d30892daf096b5fa8a86b7fea7a54" %}
 
 package:
   name: {{ name|lower }}
@@ -31,7 +31,7 @@ requirements:
 test:
   requires:
     - pytest
-    - pytest-pep8 >=1.0.6
+    - pytest-pep8
   imports:
     - optimix
   commands:
@@ -41,7 +41,7 @@ about:
   home: https://github.com/limix/optimix
   license: MIT
   license_family: MIT
-  license_file: LICENSE
+  license_file: LICENSE.txt
   summary: 'Abstract function optimisation'
   doc_url: https://optimix.readthedocs.io/
   dev_url: https://github.com/limix/optimix
