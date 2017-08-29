@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "1.2.16" %}
-{% set sha256 = "ab25dfb221aaa57746b2d0806c98d454ef9d30892daf096b5fa8a86b7fea7a54" %}
+{% set version = "1.2.17" %}
+{% set sha256 = "65368f74eca45e4f0f2b94661413804148244e6cf9b9a22f766cb2afe00a4100" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   script: python setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
