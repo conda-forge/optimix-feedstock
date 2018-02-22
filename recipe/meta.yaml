@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "1.2.21" %}
-{% set sha256 = "88c8d98471674b399fa8d2e5236c94a0c25cd11eca3ec3b35ebe4c2e3028249b" %}
+{% set version = "1.2.23" %}
+{% set sha256 = "17c81f19cb736467160a73afac3fbe1f0ad95726f32de71ba59dff14a9655990" %}
 
 package:
   name: {{ name|lower }}
@@ -41,7 +41,7 @@ about:
   home: https://github.com/limix/optimix
   license: MIT
   license_family: MIT
-  license_file: LICENSE.txt
+  license_file: LICENSE.md
   summary: 'Abstract function optimisation'
   doc_url: https://optimix.readthedocs.io/
   dev_url: https://github.com/limix/optimix
