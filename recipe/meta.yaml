@@ -22,6 +22,7 @@ requirements:
     - pytest-runner
     - pypandoc
     - wheel
+    - pip
   run:
     - python
     - numpy
