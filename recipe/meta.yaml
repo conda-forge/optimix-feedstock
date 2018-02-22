@@ -21,6 +21,7 @@ requirements:
     - setuptools
     - pytest-runner
     - pypandoc
+    - wheel
   run:
     - python
     - numpy
