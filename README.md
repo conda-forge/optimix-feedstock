@@ -14,14 +14,16 @@ Summary: Abstract function optimisation
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/optimix-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/optimix-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/optimix-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/optimix-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/optimix-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/optimix-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/optimix-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/optimix-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/optimix-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/optimix-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/optimix-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/optimix-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/optimix/badges/version.svg)](https://anaconda.org/conda-forge/optimix)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/optimix/badges/downloads.svg)](https://anaconda.org/conda-forge/optimix)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-optimix-green.svg)](https://anaconda.org/conda-forge/optimix) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/optimix.svg)](https://anaconda.org/conda-forge/optimix) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/optimix.svg)](https://anaconda.org/conda-forge/optimix) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/optimix.svg)](https://anaconda.org/conda-forge/optimix) |
 
 Installing optimix
 ==================
