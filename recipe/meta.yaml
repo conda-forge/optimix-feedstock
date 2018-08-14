@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "2.0.0" %}
-{% set sha256 = "3db13479312e395042d1b0c0eea2544ce332a67676bf0654aaf3254512061e8d" %}
+{% set version = "2.0.1" %}
+{% set sha256 = "513d274a03a15c78ccff6c323f71fb1571da461f00565e921dd2d2cdc9cd4e0d" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: python -m pip install --no-deps --ignore-installed .
 
 requirements:
