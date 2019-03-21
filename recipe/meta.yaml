@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "3.0.1" %}
-{% set sha256 = "38ad57ef9556200c97fbd26a8ed4bbbf1893d342a55e3c8fade533c7ed3d75e4" %}
+{% set version = "3.0.2" %}
+{% set sha256 = "933d4df7bbf640bed14fe7aeb1afc483b2d1d11033a58e14a80c3460b3baafd0" %}
 
 package:
   name: {{ name|lower }}
