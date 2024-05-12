@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "3.0.3" %}
-{% set sha256 = "66f70bf4c650a382992c13a8b716df6d18d42420ccc7b69adebec24c65a49329" %}
+{% set version = "3.0.4" %}
+{% set sha256 = "9f051d3ab947f7ad7c79439242426f53310bee298b3a53413f923f361f13c6c6" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -46,7 +46,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.md
-  summary: 'Abstract function optimisation'
+  summary: Abstract function optimisation
   doc_url: https://optimix.readthedocs.io/
   dev_url: https://github.com/limix/optimix
 
