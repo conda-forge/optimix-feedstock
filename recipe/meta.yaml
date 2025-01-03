@@ -1,6 +1,6 @@
 {% set name = "optimix" %}
-{% set version = "3.0.3" %}
-{% set sha256 = "66f70bf4c650a382992c13a8b716df6d18d42420ccc7b69adebec24c65a49329" %}
+{% set version = "3.0.5" %}
+{% set sha256 = "f329dfd5001d049fb6f47c32e5681b074cf1d0e5749a6091c0a4075b2379c029" %}
 
 package:
   name: {{ name|lower }}
@@ -8,13 +8,13 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: {{ sha256 }}
 
 build:
   noarch: python
   number: 0
-  script: python -m pip install --no-deps --ignore-installed .
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
